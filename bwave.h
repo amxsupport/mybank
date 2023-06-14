@@ -1,7 +1,7 @@
 #ifndef BWAVE_H
 #define BWAVE_H
 
-void createAccount();
+char * createAccount();
 int validatePassword(const char* password);
 void transferMoney(double* balance, double* lastTransferAmount);
 void depositMoney(double* balance);

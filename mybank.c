@@ -12,7 +12,7 @@ int main()
 	
 	/* Create account */
 	createAccount();
-
+	
 	char password[20];
 	int passwordCorrect = 0;
 
@@ -23,8 +23,12 @@ int main()
 	
 
 	if (passwordCorrect)
-	{
-		printf("Welcome to instant banking with my bank. \nYou have a fixed amount of 50,000 \n \n");
+		{
+	
+		printf("Your password is correct. welcome\033[0;32m %s \033[0m to instant banking with bankapp by itmasterdesigne \n", createAccount());
+       		printf("You have a fixed amount of\033[0;32m %f \033[0m dh bonus. what do you want to do with it? \n", balance);
+
+
 
 		while(1)
 		{
