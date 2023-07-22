@@ -1,0 +1,3 @@
+[submodule "alx-pre_course"]
+	path = alx-pre_course
+	url = git@github.com:amxsupport/alx-pre_course.git
